@@ -43,3 +43,5 @@ tmp_dev/**
 dist-win
 
 .DS_Store
+docs/
+.deploy_git/

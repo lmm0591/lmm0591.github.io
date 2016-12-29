@@ -68,4 +68,6 @@ theme: c-hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/lmm0591/lmm0591.github.io.git
+  branch: master
