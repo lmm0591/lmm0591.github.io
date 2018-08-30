@@ -2,6 +2,7 @@
 menu:
     Home: /
     FET: /FET
+    postWeekly: /post-weekly
     # Delete this row if you don't want categories in your header nav bar
     Categories:
     About: /about/index.html
