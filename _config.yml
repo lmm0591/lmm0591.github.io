@@ -4,7 +4,7 @@
 
 # Site
 title: 技术博客
-subtitle: 记录工作的点点滴滴
+subtitle: 积累、沉淀、总结
 description: 知识的沉淀
 author: Li Mingmin
 language: zh-CN
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:

@@ -17,3 +17,4 @@ date: 2018-08-30 16:56:20
 - [5分钟彻底理解Object.keys](https://zhuanlan.zhihu.com/p/40601459)
 - [一口（很长的）气了解 babel](https://zhuanlan.zhihu.com/p/43249121)
 - [JavaScript essentials: why you should know how the engine works (翻墙)](https://medium.freecodecamp.org/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553)
+- [不止代码（PDF）](./asset/pdf/codelife.pdf)
