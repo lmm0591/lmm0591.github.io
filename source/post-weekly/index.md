@@ -22,3 +22,4 @@ date: 2018-08-30 16:56:20
 - [“服务端渲染”吊打“客户端渲染”的那些事](https://www.w3ctech.com/topic/2005)
 - [让你的Webpack起飞—考拉会员后台Webpack优化实战](https://zhuanlan.zhihu.com/p/42465502)
 - [写给工程师的十条精进原则](https://juejin.im/post/5b762bace51d45556f41c431)
+- [带你彻底弄懂Event Loop](https://juejin.im/post/5b8f76675188255c7c653811#heading-8)
