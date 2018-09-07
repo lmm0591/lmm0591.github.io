@@ -8,3 +8,4 @@ tags:
 ---
 
 - [Google's Material Design](https://github.com/mui-org/material-ui)
+- [react-loadable](https://github.com/jamiebuilds/react-loadable)
