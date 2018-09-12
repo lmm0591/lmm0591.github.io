@@ -26,3 +26,8 @@ date: 2018-08-30 16:56:20
 - [带你彻底弄懂Event Loop](https://juejin.im/post/5b8f76675188255c7c653811#heading-8)
 - [AST 抽象语法树——最基础的 JavaScript 重点知识](https://mp.weixin.qq.com/s/GOD7NL6gK1Fg8QNDw6IGtw)
 
+
+*** 第 3 周 (2018-09-12) ***
+- [精读《React Router4.0 进阶概念》](https://zhuanlan.zhihu.com/p/31178105)
+- [react router 转场动画](https://github.com/maisano/react-router-transition)
+- [你不知道的 React Router 4](https://zhuanlan.zhihu.com/p/28585911)
