@@ -11,6 +11,8 @@ tags:
 happypack
 cache-loader
 
+https://github.com/vigneshshanmugam/optimize-js-plugin#readme
+
 学习 create-react-app webpack Plugin
 BundleAnalyzerPlugin
 Speed Measure Plugin

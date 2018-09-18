@@ -31,3 +31,14 @@ date: 2018-08-30 16:56:20
 - [精读《React Router4.0 进阶概念》](https://zhuanlan.zhihu.com/p/31178105)
 - [react router 转场动画](https://github.com/maisano/react-router-transition)
 - [你不知道的 React Router 4](https://zhuanlan.zhihu.com/p/28585911)
+- [Create and share beautiful images of your source code ](https://github.com/dawnlabs/carbon)
+- [JavaScript 为什么快——第一篇](https://zhuanlan.zhihu.com/p/41130608)
+- [JavaScript 为什么快--第二篇](https://zhuanlan.zhihu.com/p/41717603)
+- [React v16.3之后的组件生命周期函数](https://zhuanlan.zhihu.com/p/38030418)
+- [深入探究Immutable.js的实现机制](https://juejin.im/post/5b9b30a35188255c6418e67c?utm_source=gold_browser_extension)
+
+
+*** 第 4 周 (2018-09-17) ***
+- [带你玩转prefetch, preload, dns-prefetch，defer和async](https://segmentfault.com/a/1190000011577248)
+- [彻底搞懂HTTPS的加密机制](https://juejin.im/user/59667f0bf265da6c4e7f7b25/posts)
+- [Immutable.js 以及在 react+redux 项目中的实践](https://juejin.im/post/5948985ea0bb9f006bed7472?utm_source=tuicool&utm_medium=referral)
