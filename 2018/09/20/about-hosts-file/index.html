@@ -3,19 +3,23 @@
 <head>
     <meta charset="utf-8">
     
-    <title>归档 | 技术博客</title>
+    <title>关于 /etc/hosts 文件 | 技术博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="知识的沉淀">
-<meta property="og:type" content="website">
-<meta property="og:title" content="技术博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+        <meta name="keywords" content="Mac" />
+    
+    <meta name="description" content="主机名 ip 配置文件hosts—The static table lookup for host name(主机名查询静态表) linux 的 /etc/hosts 是配置 ip 地址和其对应主机名的文件，不同的linux版本，这个配置文件也可能不同。比如 Debian 的对应文件时 /etc/hostname。 配置文件的用途这个文件可以配置主机 IP 及其对应的主机名，可以减少 DNS 查询">
+<meta name="keywords" content="Mac">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于 &#x2F;etc&#x2F;hosts 文件">
+<meta property="og:url" content="http://yoursite.com/2018/09/20/about-hosts-file/index.html">
 <meta property="og:site_name" content="技术博客">
-<meta property="og:description" content="知识的沉淀">
+<meta property="og:description" content="主机名 ip 配置文件hosts—The static table lookup for host name(主机名查询静态表) linux 的 /etc/hosts 是配置 ip 地址和其对应主机名的文件，不同的linux版本，这个配置文件也可能不同。比如 Debian 的对应文件时 /etc/hostname。 配置文件的用途这个文件可以配置主机 IP 及其对应的主机名，可以减少 DNS 查询">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-09-20T05:26:22.507Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="技术博客">
-<meta name="twitter:description" content="知识的沉淀">
+<meta name="twitter:title" content="关于 &#x2F;etc&#x2F;hosts 文件">
+<meta name="twitter:description" content="主机名 ip 配置文件hosts—The static table lookup for host name(主机名查询静态表) linux 的 /etc/hosts 是配置 ip 地址和其对应主机名的文件，不同的linux版本，这个配置文件也可能不同。比如 Debian 的对应文件时 /etc/hostname。 配置文件的用途这个文件可以配置主机 IP 及其对应的主机名，可以减少 DNS 查询">
     
 
     
@@ -127,176 +131,131 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>归档
+    未分类
     </h1>
 </div>
                         <div class="main-body-content">
-                            
+                            <article id="post-about-hosts-file" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        关于 /etc/hosts 文件
+        </h1>
+    
 
-    
-    
+            </header>
         
         
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
+            <div class="article-subtitle">
+                <a href="/2018/09/20/about-hosts-file/" class="article-date">
+    <time datetime="2018-09-20T05:10:41.000Z" itemprop="datePublished">2018-09-20</time>
+</a>
+                
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mac/">Mac</a></li></ul>
+
             </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
         
-        <a href="/2018/09/20/about-hosts-file/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
         
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2018/09/20/about-hosts-file/">0</span>
-    
-</span>
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="主机名-ip-配置文件"><a href="#主机名-ip-配置文件" class="headerlink" title="主机名 ip 配置文件"></a>主机名 ip 配置文件</h2><p>hosts—The static table lookup for host name(主机名查询静态表)</p>
+<p>linux 的 /etc/hosts 是配置 ip 地址和其对应主机名的文件，不同的linux版本，这个配置文件也可能不同。比如 Debian 的对应文件时 /etc/hostname。</p>
+<h2 id="配置文件的用途"><a href="#配置文件的用途" class="headerlink" title="配置文件的用途"></a>配置文件的用途</h2><p>这个文件可以配置主机 IP 及其对应的主机名，可以减少 DNS 查询，节省时间，</p>
+<p>linux 主机名的相关配置文件就是 /etc/hosts 这个文件告诉主机那些域名对应那些ip</p>
+<p>比如文件中有这样的定义</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">192.168.1.100    linumu100    test100</span><br></pre></td></tr></table></figure>
+<p>假设 <code>192.168.1.100</code> 是一台网站服务器，在网页中输入 <code>http://linumu100</code> 或 <code>http://test1000</code> 就会打开 <code>192.168.1.100</code> 的网页。</p>
+<h2 id="配置文件格式说明"><a href="#配置文件格式说明" class="headerlink" title="配置文件格式说明"></a>配置文件格式说明</h2><p>一般/etc/hosts的内容一般有如下类似内容：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>#</span><br><span class="line"><span class="meta">#</span> Host Database</span><br><span class="line"><span class="meta">#</span></span><br><span class="line"><span class="meta">#</span> localhost is used to configure the loopback interface</span><br><span class="line"><span class="meta">#</span> when the system is booting.  Do not change this entry.</span><br><span class="line"><span class="meta">#</span>#</span><br><span class="line">127.0.0.1	localhost</span><br><span class="line">255.255.255.255	broadcasthost</span><br><span class="line">::1             localhost</span><br></pre></td></tr></table></figure></p>
+<p>一般情况下hosts文件的每行尾一个主机，每行由三部分组成，每个部分由空格隔开。</p>
+<p>第一部分：网络IP地址；<br>第二部分：主机名或域名；<br>第三部分：主机名别名；</p>
+<p>当然每行也可以是两部分，即主机IP地址和主机名。</p>
+<p>主机名（hostname) 和 域名（domain)的区别：<br>主机名通常在局域网内使用，通过hosts文件，主机名就被解析到对应IP;<br>域名通常在INTERNET上使用，但如果本机不想使用internet上的域名解析，这时就可以更改hosts文件，加入自己的域名解析。</p>
+<h2 id="hosts文件可以帮助解决哪些问题"><a href="#hosts文件可以帮助解决哪些问题" class="headerlink" title="hosts文件可以帮助解决哪些问题"></a>hosts文件可以帮助解决哪些问题</h2><ul>
+<li>加快域名解析</li>
+<li>开发测试 mock 线上域名环境，可以充当部份 fiddler 的功能</li>
+</ul>
 
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2018-09-20T05:10:41.000Z" itemprop="datePublished">2018-09-20</time></p>
         </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2018/09/20/about-hosts-file/">关于 /etc/hosts 文件</a>
-        </h1>
-    
+        <footer class="article-footer">
+            
 
-        <p class="article-excerpt">
-            主机名 ip 配置文件hosts—The static table lookup for host name(主机名查询静态表)
-linux 的 /etc/hosts 是配置 ip 地址和其对应主机名的文件，不同的linux版本，这个配置文件也可能不同。比如 Debian 的对应文件时 /etc/hostname。
-配置文件的用途这个文件可以配置主机 IP 及其对应的主机名，可以减少 DNS 查询
-        </p>
+
+
+    <a data-url="http://yoursite.com/2018/09/20/about-hosts-file/" data-id="cjma524r70003hz68pilvgw7t" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
-    
 
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2018/09/19/awesome-node/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
+    <section id="comments">
     
         
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2018/09/19/awesome-node/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2018-09-18T17:06:47.000Z" itemprop="datePublished">2018-09-19</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2018/09/19/awesome-node/">awesome node</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-A node.js library to automate chrome/chromium browser
-
-
-        </p>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
-</article>
-    
-        </div>
-    
 
     
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2018/08/30/awesome-react/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2018/08/30/awesome-react/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2018-08-30T08:24:00.000Z" itemprop="datePublished">2018-08-30</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2018/08/30/awesome-react/">awesome react</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-Google’s Material Design
-react-loadable
-react router 转场动画
-
-
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -317,6 +276,19 @@ react router 转场动画
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2018/09/19/awesome-node/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">awesome node</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -463,11 +435,13 @@ react router 转场动画
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://yoursite.com/2018/09/20/about-hosts-file/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
