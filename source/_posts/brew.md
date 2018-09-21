@@ -38,13 +38,16 @@ brew upgrade  mysql  //    升级mysql软件
 
 brew list      //显示已经安装的软件
 
+brew uninstall xx //卸载某些软件
+
 brew cleanup    //定期清理一些安装包缓存
 
-brew uninstall xx //卸载某些软件
 ```
 
-## 四、brew cask的常用命令
-安装完brew时，brew-cask已经安装好了，无需自行安装。
+## 四、brew cask 的常用命令
+
+安装完 brew 时，brew-cask 已经安装好了，无需自行安装。
+
 ```shell
 brew cask search # 列出所有可以被安装的软件
 brew cask search name # 查找所有和 name相关的应用
@@ -60,4 +63,10 @@ brew cask cleanup # 清除下载的缓存以及各种链接信息
 ```shell
 brew update && brew upgrade brew-cask #更新cask自身
 brew cask uninstall name && brew cask install name ＃更新程序
+```
+
+## 六、常用软件
+
+```shell
+brew cask install launchrocket #非常友好的 brew 服务 图形界面
 ```
