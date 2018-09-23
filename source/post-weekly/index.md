@@ -42,3 +42,7 @@ date: 2018-08-30 16:56:20
 - [带你玩转prefetch, preload, dns-prefetch，defer和async](https://segmentfault.com/a/1190000011577248)
 - [彻底搞懂HTTPS的加密机制](https://juejin.im/user/59667f0bf265da6c4e7f7b25/posts)
 - [Immutable.js 以及在 react+redux 项目中的实践](https://juejin.im/post/5948985ea0bb9f006bed7472?utm_source=tuicool&utm_medium=referral)
+- [React 16.3来了：带着全新的Context API](https://segmentfault.com/a/1190000013203396)
+- [为什么说React 16是开发者的福音？](https://mp.weixin.qq.com/s/DTJTXQhGXW7HZpaCy9rgIg)
+- [JavaScript 的成本](https://juejin.im/post/5a253d746fb9a0451463e197)
+- [详解React Native动画](https://github.com/dwqs/blog/issues/41)

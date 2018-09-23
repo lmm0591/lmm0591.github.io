@@ -69,4 +69,5 @@ brew cask uninstall name && brew cask install name ＃更新程序
 
 ```shell
 brew cask install launchrocket #非常友好的 brew 服务 图形界面
+brew cask install cakebrew #非常友好的 brew 包管理图形界面
 ```
