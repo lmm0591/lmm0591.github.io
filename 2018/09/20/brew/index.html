@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="技术博客">
 <meta property="og:description" content="一、简介brew 是一个软件包管理工具,类似于 centos 下的 yum 或者 ubuntu 下的 apt-get,非常方便,免去了自己手动编译安装的不便  brew 安装目录 /usr/local/Cellar brew 配置目录 /usr/local/etc brew 命令目录 /usr/local/bin (注:homebrew在安装完成后自动在/usr/local/bin加个软连接，所以">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-21T01:33:31.887Z">
+<meta property="og:updated_time" content="2018-09-21T01:36:19.100Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="brew 简介">
 <meta name="twitter:description" content="一、简介brew 是一个软件包管理工具,类似于 centos 下的 yum 或者 ubuntu 下的 apt-get,非常方便,免去了自己手动编译安装的不便  brew 安装目录 /usr/local/Cellar brew 配置目录 /usr/local/etc brew 命令目录 /usr/local/bin (注:homebrew在安装完成后自动在/usr/local/bin加个软连接，所以">
@@ -171,14 +171,14 @@
 <h2 id="四、brew-cask-的常用命令"><a href="#四、brew-cask-的常用命令" class="headerlink" title="四、brew cask 的常用命令"></a>四、brew cask 的常用命令</h2><p>安装完 brew 时，brew-cask 已经安装好了，无需自行安装。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">brew cask search # 列出所有可以被安装的软件</span><br><span class="line">brew cask search name # 查找所有和 name相关的应用</span><br><span class="line">brew cask install name # 下载安装软件</span><br><span class="line">brew cask uninstall name # 卸载软件</span><br><span class="line">brew cask info app # 列出应用的信息</span><br><span class="line">brew cask list # 列出本机按照过的软件列表</span><br><span class="line">brew cask cleanup # 清除下载的缓存以及各种链接信息</span><br></pre></td></tr></table></figure>
 <h2 id="五、更新-brew-cask-及通过-brew-cask-安装的程序"><a href="#五、更新-brew-cask-及通过-brew-cask-安装的程序" class="headerlink" title="五、更新 brew cask 及通过 brew-cask 安装的程序"></a>五、更新 brew cask 及通过 brew-cask 安装的程序</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew update &amp;&amp; brew upgrade brew-cask #更新cask自身</span><br><span class="line">brew cask uninstall name &amp;&amp; brew cask install name ＃更新程序</span><br></pre></td></tr></table></figure>
-<h2 id="六、常用软件"><a href="#六、常用软件" class="headerlink" title="六、常用软件"></a>六、常用软件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install launchrocket #非常友好的 brew 服务 图形界面</span><br></pre></td></tr></table></figure>
+<h2 id="六、常用软件"><a href="#六、常用软件" class="headerlink" title="六、常用软件"></a>六、常用软件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew cask install launchrocket #非常友好的 brew 服务 图形界面</span><br><span class="line">brew cask install cakebrew #非常友好的 brew 包管理图形界面</span><br></pre></td></tr></table></figure>
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="http://yoursite.com/2018/09/20/brew/" data-id="cjmbc0qz100043f68iz39aqyl" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/2018/09/20/brew/" data-id="cjmez3y0x0006l0s62xfl908h" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
