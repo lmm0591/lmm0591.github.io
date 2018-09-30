@@ -46,3 +46,9 @@ date: 2018-08-30 16:56:20
 - [为什么说React 16是开发者的福音？](https://mp.weixin.qq.com/s/DTJTXQhGXW7HZpaCy9rgIg)
 - [JavaScript 的成本](https://juejin.im/post/5a253d746fb9a0451463e197)
 - [详解React Native动画](https://github.com/dwqs/blog/issues/41)
+
+*** 第 5 周 (2018-09-24) ***
+
+- [node插件http-proxy实现反向代理](https://www.cnblogs.com/wunan/p/6547990.html)
+- [nodemon](https://nodemon.io/)
+- [koa](https://koa.bootcss.com/)
