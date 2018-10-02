@@ -52,3 +52,9 @@ date: 2018-08-30 16:56:20
 - [node插件http-proxy实现反向代理](https://www.cnblogs.com/wunan/p/6547990.html)
 - [nodemon](https://nodemon.io/)
 - [koa](https://koa.bootcss.com/)
+
+
+*** 第 6 周 (2018-10-01) ***
+- [浮点数的二进制表示](http://www.ruanyifeng.com/blog/2010/06/ieee_floating-point_representation.html)
+- [为什么0.1+0.2=0.30000000000000004而1.1+2.2=3.3000000000000003？](https://www.zhihu.com/question/28551135/answer/92200224)
+- [二进制十进制间小数怎么转换](https://jingyan.baidu.com/article/425e69e6e93ca9be15fc1626.html)
