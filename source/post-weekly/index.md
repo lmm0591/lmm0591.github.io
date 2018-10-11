@@ -61,3 +61,7 @@ date: 2018-08-30 16:56:20
 
 *** 第 7 周 (2018-10-08) ***
 - [学前端，我如何一年内学到三年的知识](https://juejin.im/post/5bb9aed1e51d451a3f4c3923?utm_source=gold_browser_extension)
+- [React 性能分析器介绍](http://www.css88.com/archives/9696)
+- [精读《12 个评估 JS 库你需要关心的事》](https://segmentfault.com/a/1190000016504733#articleHeader0)
+- [一个程序员的成长之路](https://github.com/fouber/blog/blob/master/201805/01.md)
+- [The State of React Native (2018)](https://www.youtube.com/watch?v=plTTFqbEiEE)
