@@ -4,3 +4,6 @@
 [submodule "doraemon-cache-loader"]
 	path = doraemon-cache-loader
 	url = https://github.com/lmm0591/doraemon-cache-loader.git
+[submodule "axios"]
+	path = axios
+	url = https://github.com/lmm0591/axios.git
