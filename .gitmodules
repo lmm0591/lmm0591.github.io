@@ -1,0 +1,6 @@
+[submodule "vscode-i18n"]
+	path = vscode-i18n
+	url = https://github.com/lmm0591/vscode-i18n.git
+[submodule "doraemon-cache-loader"]
+	path = doraemon-cache-loader
+	url = https://github.com/lmm0591/doraemon-cache-loader.git
